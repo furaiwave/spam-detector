@@ -9,6 +9,15 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      "@spam-detection/shared-types": path.resolve(__dirname, "../gateway-detector/src/shared/index.ts"),
+    },
+  },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:4000',
+        changeOrigin: true,
+      },
     },
   },
 })

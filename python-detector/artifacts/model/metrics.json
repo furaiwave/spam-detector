@@ -1,0 +1,4 @@
+{
+  "test_samples": 28,
+  "report": "              precision    recall  f1-score   support\n\nSpamLabel.NOT_SPAM     0.4400    0.9167    0.5946        12\nSpamLabel.SUSPICIOUS     0.0000    0.0000    0.0000         5\nSpamLabel.NEEDS_REVIEW     0.0000    0.0000    0.0000         6\nSpamLabel.SPAM     0.0000    0.0000    0.0000         5\n\n    accuracy                         0.3929        28\n   macro avg     0.1100    0.2292    0.1486        28\nweighted avg     0.1886    0.3929    0.2548        28\n"
+}

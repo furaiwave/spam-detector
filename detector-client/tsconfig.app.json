@@ -23,6 +23,9 @@
     "paths": {
       "@/*": [
         "./src/*"
+      ],
+      "@spam-detection/shared-types": [
+        "../gateway-detector/src/shared/index.ts"
       ]
     },
   },
